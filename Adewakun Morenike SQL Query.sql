@@ -3,7 +3,8 @@
 SELECT *
 from [Production].[WorkOrder]
 where OrderQty > 10
---Query 2
+ 
+--Query 2 Retrieve all products with their list prices.
 SELECT ProductID, Name, ListPrice
 FROM  Production.Product
 
